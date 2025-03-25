@@ -1,14 +1,117 @@
-.testimonials {
+.testimonials__container {
   position: relative;
+  overflow: hidden;
   width: 100%;
   z-index: 0;
-
   height: 700px;
-
-  background: url(../../../public/flowers2.jpg);
+  background: url(../../../public/167281.jpg);
   background-attachment: fixed;
-
-  background-size: cover; /* Изображение полностью покрывает элемент */
-  background-position: center; /* Центрирование изображения */
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.text {
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+}
+
+.arrowButton {
+  margin: 0 30px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.name {
+  font-size: 25px;
+  color: white;
+}
+
+.testimonial {
+  padding: 20px;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  color: #dfb03a;
+  background-color: white;
+}
+
+.cardsScroller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  height: auto;
+  width: 50%;
+  margin: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  width: 30%;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.card.previous {
+  opacity: 1;
+  visibility: collapse;
+  transform: translateX(-100%);
+  animation-duration: 1s;
+  animation-name: slideout;
+}
+
+.card.next {
+  opacity: 1;
+  visibility: collapse;
+  transform: translateX(100%);
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.arrowButton {
+  width: 20px;
+  height: 40px;
+  color: green;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1260px) {
+  .card {
+    width: 100%;
+  }
+  .cards {
+    width: 30%;
+  }
+}
+@media (max-width: 450px) {
+  .cards {
+    margin: 0 5px;
+  }
 }

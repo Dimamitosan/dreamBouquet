@@ -1,0 +1,32 @@
+.contacts__container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 0;
+  height: 700px;
+  background: url(../../../public/167282.jpg);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+}
+
+.contact__row {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  color: white;
+  border: 2px solid white;
+}
