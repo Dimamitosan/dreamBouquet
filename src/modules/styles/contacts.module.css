@@ -6,8 +6,7 @@
   height: 700px;
   background: url(../../../public/167282.jpg);
   background-attachment: fixed;
-  display: flex;
-  justify-content: center;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,4 +28,16 @@
   padding: 30px;
   color: white;
   border: 2px solid white;
+}
+
+.block {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: white;
 }

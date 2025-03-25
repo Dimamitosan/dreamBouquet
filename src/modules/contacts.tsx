@@ -14,11 +14,17 @@ function Contacts() {
       <div className={styles.contact__row}>
         <div className={styles.block}>
           <FontAwesomeIcon icon={faPhone} />
-          <a href="tel: +12345678910">+12345678910</a>
+          <p>
+            <a href="tel: +12345678910">+12345678910</a>
+          </p>
         </div>
         <div className={styles.block}>
           <FontAwesomeIcon icon={faEnvelope} />
-          <a href="mailto: dreamBouquet@pochta.com">dreamBouquet@pochta.com</a>
+          <p>
+            <a href="mailto: dreamBouquet@pochta.com">
+              dreamBouquet@pochta.com
+            </a>
+          </p>
         </div>
         <div className={styles.block}>
           <FontAwesomeIcon icon={faMapLocationDot} />
