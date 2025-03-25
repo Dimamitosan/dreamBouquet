@@ -1,0 +1,14 @@
+.testimonials {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+
+  height: 700px;
+
+  background: url(../../../public/flowers2.jpg);
+  background-attachment: fixed;
+
+  background-size: cover; /* Изображение полностью покрывает элемент */
+  background-position: center; /* Центрирование изображения */
+  background-repeat: no-repeat;
+}
