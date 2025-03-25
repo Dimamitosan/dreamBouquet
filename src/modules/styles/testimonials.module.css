@@ -114,4 +114,7 @@
   .cards {
     margin: 0 5px;
   }
+  .testimonials__container {
+    height: 1300px;
+  }
 }
