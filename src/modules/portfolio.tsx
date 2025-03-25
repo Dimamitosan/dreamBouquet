@@ -1,15 +1,20 @@
 import React, { useState } from 'react'
 import styles from './styles/portfolio.module.css'
 
-import picture from '../pictures/41919.jpg'
+import picture1 from '../pictures/1921.jpg'
+import picture2 from '../pictures/2044.jpg'
+import picture3 from '../pictures/2077.jpg'
+import picture4 from '../pictures/23571.jpg'
+import picture5 from '../pictures/1503.jpg'
+import picture6 from '../pictures/9143.jpg'
 
 const images = [
-  { id: 1, src: picture, category: 'category1' },
-  { id: 2, src: picture, category: 'category1' },
-  { id: 3, src: picture, category: 'category1' },
-  { id: 4, src: picture, category: 'category2' },
-  { id: 5, src: picture, category: 'category3' },
-  { id: 6, src: picture, category: 'category3' },
+  { id: 1, src: picture1, category: 'category1' },
+  { id: 2, src: picture2, category: 'category1' },
+  { id: 3, src: picture3, category: 'category1' },
+  { id: 4, src: picture4, category: 'category2' },
+  { id: 5, src: picture5, category: 'category3' },
+  { id: 6, src: picture6, category: 'category3' },
 ]
 
 function Portfolio() {
