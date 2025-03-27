@@ -31,7 +31,6 @@ function Contacts() {
           <p>Moscow</p>
         </div>
       </div>
-      <div className={styles.map}>dsasda</div>
     </div>
   )
 }
